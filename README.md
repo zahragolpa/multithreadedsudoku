@@ -9,9 +9,13 @@ We show that the more threads used, the more the running time will be. This unus
 
 Figure 1 and 2 shows latency over the number of threads when the given answer is correct and incorrect, respectively.
 
-<img width="600" src="https://imgur.com/MPOXuRW.png">Figure 1. Latency over the number of threads when the given sudoku is correct.</img>
+<img width="600" src="https://imgur.com/MPOXuRW.png"></img>
+
+Figure 1. Latency over the number of threads when the given sudoku is correct.
 
 
-<img width="600" src="https://imgur.com/SHguFVL.png">Figure 2. Latency over the number of threads when the given sudoku is not correct.</img>
+<img width="600" src="https://imgur.com/SHguFVL.png"></img>
+
+Figure 2. Latency over the number of threads when the given sudoku is not correct.
 
 
