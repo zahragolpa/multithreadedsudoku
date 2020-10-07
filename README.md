@@ -1,9 +1,9 @@
-# multithreadedsudoku
-In this project, three approaches to solve a sudoku puzzle are implemented.
+# Multithreaded Sudoku Solution Checker
+In this project, three approaches to check whether a given sudoku answer is correct or not are implemented.
 
-- Solving sudoku using a single thread.
-- Solving sudoku using 11 threads; 1 thread for all the rows, 1 thread for all the columns, and 9 threads for 9 sudoku blocks.
-- Solving sudoku using 27 threads; 9 thread for 9 rows, 9 thread for 9 columns, and 9 threads for 9 sudoku blocks.
+- Checking the sudoku answer using a single thread.
+- Checking the sudoku answer using 11 threads; 1 thread for all the rows, 1 thread for all the columns, and 9 threads for 9 sudoku blocks.
+- Checking the sudoku answer using 27 threads; 9 thread for 9 rows, 9 thread for 9 columns, and 9 threads for 9 sudoku blocks.
 
 We show that the more threads used, the more the running time will be. This unusual result is a consequence of context switch overhead. In compute-bound operations, unlike I/O-bound operations, multithreading may even increase the latency. The [Amdahl's law](https://en.wikipedia.org/wiki/Amdahl%27s_law) also supports this claim.
 
