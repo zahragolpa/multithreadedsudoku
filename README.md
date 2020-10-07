@@ -1,5 +1,5 @@
-# Multithreaded Sudoku Solution Checker
-In this project, three approaches to check whether a given sudoku answer is correct or not are implemented.
+# Multithreaded Sudoku Solution Validator
+In this project, three approaches to validate whether a given sudoku answer is correct or not are implemented.
 
 - Checking the sudoku answer using a single thread.
 - Checking the sudoku answer using 11 threads; 1 thread for all the rows, 1 thread for all the columns, and 9 threads for 9 sudoku blocks.
